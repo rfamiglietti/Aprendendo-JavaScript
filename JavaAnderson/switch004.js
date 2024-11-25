@@ -31,12 +31,11 @@ switch (opcao) {
     resumo = `Evento: Hackathon\nNúmero de Dias: ${dias}\nNúmero de Equipes: ${equipes}\nCusto Total: R$ ${custoTotal.toFixed(2)}`;
     break;
 
-  default:
+  default: // Tratamento para valores inválidos (fora do intervalo 1 a 3).
     console.log("Opção inválida");
     break;
 }
 
-// Exibe o resumo apenas se a opção for válida
 if (resumo) {
   console.log("Resumo do Evento:");
   console.log(resumo);

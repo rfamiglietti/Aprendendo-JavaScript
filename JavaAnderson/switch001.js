@@ -2,7 +2,8 @@
 // Utilizando *switch…case* , crie um programa que pergunte qual bebida o usuário deseja dentre as opções listadas (água/suco/refrigerante/café), e então leia o numero digitado e exiba a mensagem correspondente:
 
 
-var prompt = require('prompt-sync')();
+const prompt = require('prompt-sync')();
+
 let opcao = parseInt(prompt("1 - Água\n2 - Suco\n3 - Refrigerante\n4 - Café\nEscolha sua bebida:"));
 
 switch (opcao) {
