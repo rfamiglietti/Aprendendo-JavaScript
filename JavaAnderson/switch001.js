@@ -1,6 +1,7 @@
 // EXERCÍCIO 1 - Escolha de Bebida
 // Utilizando *switch…case* , crie um programa que pergunte qual bebida o usuário deseja dentre as opções listadas (água/suco/refrigerante/café), e então leia o numero digitado e exiba a mensagem correspondente:
-//
+// df
+ghrj
 
 const prompt = require('prompt-sync')();
 
