@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<style>
+    .oculto {
+        display: none;
+    }
+    .visivel {
+        display: block;
+    }
+
+
+
+
+    body.light {
+    background-color: white;
+    color: black;}
+    
+    body.dark {
+    background-color: black;
+    color: white;}
+</style>
+
+
+
+<!-- OCULTAR E MOSTRAR ELEMENTOS --------------------------------------------------->
+<div id="caixa" class="visivel">Este texto será ocultado.</div>
+<button id="botao">Ocultar/Mostrar</button>
+
+
+
+<!-- MUDAR TEXTO ------------------------------------------------------------------->
+<h2 id="mensagem">Clique no botão para mudar esta mensagem!</h2>
+<button id="mudaMensagem">Mudar Mensagem</button>
+
+
+
+<!-- ESPAÇO PARA CADASTRO ---------------------------------------------------------->
+<form id="cadastro">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+    <button type="submit">Enviar</button>
+</form>
+<p id="status"></p>
+
+
+
+<!-- ALTERAR TEMA ------------------------------------------------------------------>
+<button id="toggleMode">Alternar Tema</button>
+
+
+
+<script src="addEventListener.js"></script>
+</body>
+</html>
+
