@@ -40,9 +40,9 @@ form.addEventListener("submit", (event) => {
 
 
 // ALTERAR TEMA ------------------------------------------------------------------
-const toggleMode = document.getElementById("toggleMode");
+const botaoAlternar = document.getElementById("botaoAlternar");
 
-toggleMode.addEventListener("mouseover", () => {
+botaoAlternar.addEventListener("mouseover", () => {
     document.body.classList.toggle("dark");
     document.body.classList.toggle("light");
 });
