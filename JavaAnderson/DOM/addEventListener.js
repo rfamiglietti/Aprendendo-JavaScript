@@ -42,7 +42,7 @@ form.addEventListener("submit", (event) => {
 // ALTERAR TEMA ------------------------------------------------------------------
 const toggleMode = document.getElementById("toggleMode");
 
-toggleMode.addEventListener("click", () => {
+toggleMode.addEventListener("mouseover", () => {
     document.body.classList.toggle("dark");
     document.body.classList.toggle("light");
 });
