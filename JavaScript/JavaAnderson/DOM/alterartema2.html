@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+   
+    body.claro {
+    background-color: white;
+    color: black;}
+    
+    body.escuro {
+    background-color: black;
+    color: white;}
+
+</style>
+
+
+<body>
+    <button onclick="alterna()">
+        Alternar Tema
+    </button>
+
+    <h1>Sou uma pag que muda de tema</h1>
+ 
+    <script>
+        function alterna() {
+            document.bory.classList.toggle('escuro');
+            document.bory.classList.toggle('claro');
+        }
+    </script>
+</body>
+</html>
