@@ -4,6 +4,7 @@ const carro = {
     marca: 'Honda',
     modelo: 'Civic',
     ano: '2020',
+
 }
 
 console.log(carro.marca);
